@@ -26,20 +26,20 @@ public class InterviewBit {
 
 
     public static void main(String[] args) {
-        ArrayList<Integer> numbers = new ArrayList<>();
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
         numbers.add(0);
         numbers.add(2);
         numbers.add(4);
         numbers.add(7);
         numbers.add(9);
 
-        ArrayList<Integer> numbers2 = new ArrayList<>();
+        ArrayList<Integer> numbers2 = new ArrayList<Integer>();
         numbers2.add(6);
 
         numbers2.add(9);
         numbers2.add(15);
 
-        ArrayList<Integer> numbers3 = new ArrayList<>();
+        ArrayList<Integer> numbers3 = new ArrayList<Integer>();
         numbers3.add(3);
         numbers3.add(3);
         numbers3.add(3);

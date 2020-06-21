@@ -19,7 +19,7 @@ public class Greedy {
     }
 
     private static ArrayList<Integer> toList(int[] arr){
-        ArrayList<Integer> res = new ArrayList<>();
+        ArrayList<Integer> res = new ArrayList<Integer>();
         for (int i = 0; i < arr.length; i++) {
             res.add(arr[i]);
         }

@@ -60,8 +60,8 @@ public class InterviewBitTree {
 
 
     public static ArrayList<Integer> postOrder(TreeNode root) {
-        Stack<TreeNode> stack = new Stack<>();
-        ArrayList<Integer> res = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        ArrayList<Integer> res = new ArrayList<Integer>();
         if (root == null) return res;
         TreeNode cur = root;
         while (cur != null || !stack.isEmpty()) {

@@ -82,7 +82,7 @@ public class BinaryMinHeap {
         listNode2.next = new ListNode(6);
         listNode2.next.next = new ListNode(11);
 
-        ArrayList<ListNode> listNodes = new ArrayList<>();
+        ArrayList<ListNode> listNodes = new ArrayList<ListNode>();
         listNodes.add(listNode);
         listNodes.add(listNode2);
         sortLists(listNodes);
